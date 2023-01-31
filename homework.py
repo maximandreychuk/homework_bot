@@ -73,8 +73,8 @@ def parse_status(homework):
             verdict = HOMEWORK_VERDICTS.get(status)
             return ('Изменился статус проверки работы'
                     + f' "{homework_name}". {verdict}')
-        logger.error('Неожиданный статус домашней работы'
-                    + f': {verdict}, обнаруженный в ответе API')
+        logger.error('Неожиданный статус домашней работы: '
+                     + f'{verdict}, обнаруженный в ответе API')
         raise MyException('Hеизвестный статус')
     logger.error('Нет ключей')
     raise KeyError('Нет ключей')
