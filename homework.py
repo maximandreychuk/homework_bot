@@ -34,8 +34,7 @@ logger = logging.getLogger(__name__)
 
 
 def check_tokens():
-    """Проверка токенов. Если их нет - программа останавливается.
-    """
+    """Проверка токенов. Если их нет - программа останавливается."""
     if PRACTICUM_TOKEN is None or TELEGRAM_TOKEN is None:
         logger.critical('Где токены?')
         raise MyException('Где токены?')
