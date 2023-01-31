@@ -27,7 +27,7 @@ load_dotenv()
 
 logging.basicConfig(
     level=logging.INFO,
-    filename='logging_for_homework.log', 
+    filename='logging_for_homework.log',
     format='%(asctime)s -%(levelname)s - %(name)s - %(message)s'
 )
 logger = logging.getLogger(__name__)
@@ -70,13 +70,15 @@ def get_api_answer(timestamp):
 def parse_status(homework):
     """Получаем статус последней домашней работы(если она есть).
     """
-    homework_name=homework.get('homework_name')
-    status=homework.get('status')
+    homework_name = homework.get('homework_name')
+    status = homework.get('status')
     if homework_name is not None and status is not None:
         if status in HOMEWORK_VERDICTS:
-            verdict=HOMEWORK_VERDICTS.get(status)
-            return f'Изменился статус проверки работы "{homework_name}". {verdict}'
-        logger.error(f"Неожиданный статус домашней работы: {verdict}, обнаруженный в ответе API")
+            verdict = HOMEWORK_VERDICTS.get(status)
+            return ('Изменился статус проверки работы'
+                    f' "{homework_name}". {verdict}')
+        logger.error('Неожиданный статус домашней работы:'
+                    f' {verdict}, обнаруженный в ответе API')
         raise MyException('Hеизвестный статус')
     logger.error('Нет ключей')
     raise KeyError('Нет ключей')
@@ -93,12 +95,14 @@ def check_response(response):
                         return response['homeworks']
                     logger.error('Список пуст')
                     raise TypeError('Список пуст')
-                logger.error(f'Значение ключа homeworks не list, а {response['homeworks']}')
-                raise TypeError(f'Значение ключа homeworks не list, а {response['homeworks']}')
+                logger.error('Значение ключа homeworks не list')
+                raise TypeError('Значение ключа homeworks не list')
             logger.error('Нет ключа homeworks')
             raise KeyError('Нет ключа homeworks')
-        logger.error(f'Запрос к API вернул не словарь, а {type(response)}')
-        raise TypeError(f'Запрос к API вернул не словарь, а {type(response)}')
+        logger.error('Запрос к API вернул не словарь,'
+                    f' а {type(response)}')
+        raise TypeError('Запрос к API вернул не словарь,'
+                        f' а {type(response)}')
     except Exception as error:
         logger.error(error)
         raise TypeError(error)
@@ -107,7 +111,7 @@ def check_response(response):
 def main():
     """Основная логика работы бота."""
     check_tokens()
-  
+
     bot = telegram.Bot(token=TELEGRAM_TOKEN)
     timestamp = int(time.time())
 
