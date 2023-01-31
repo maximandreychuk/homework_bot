@@ -72,9 +72,11 @@ def parse_status(homework):
         if status in HOMEWORK_VERDICTS:
             verdict = HOMEWORK_VERDICTS.get(status)
             return ('Изменился статус проверки работы'
-                    f' "{homework_name}". {verdict}')
+                    f' "{homework_name}". {verdict}'
+                )
         logger.error('Неожиданный статус домашней работы:'
-                    f' {verdict}, обнаруженный в ответе API')
+                    f' {verdict}, обнаруженный в ответе API'
+                )
         raise MyException('Hеизвестный статус')
     logger.error('Нет ключей')
     raise KeyError('Нет ключей')
@@ -94,10 +96,8 @@ def check_response(response):
                 raise TypeError('Значение ключа homeworks не list')
             logger.error('Нет ключа homeworks')
             raise KeyError('Нет ключа homeworks')
-        logger.error('Запрос к API вернул не словарь,'
-                    f' а {type(response)}')
-        raise TypeError('Запрос к API вернул не словарь,'
-                        f' а {type(response)}')
+        logger.error('Запрос к API вернул не словарь')
+        raise TypeError('Запрос к API вернул не словарь')
     except Exception as error:
         logger.error(error)
         raise TypeError(error)
