@@ -41,8 +41,7 @@ def check_tokens():
 
 
 def send_message(bot, message):
-    """С помощью этой функции отправляем сообщение в чат.
-    """
+    """С помощью этой функции отправляем сообщение в чат."""
     try:
         bot.send_message(chat_id=TELEGRAM_CHAT_ID, text=message)
         logger.debug('Успешная отправка сообщения!')
@@ -52,8 +51,7 @@ def send_message(bot, message):
 
 
 def get_api_answer(timestamp):
-    """Получаем результат запроса к API.
-    """
+    """Получаем результат запроса к API."""
     try:
         PAYLOAD = {'from_date': timestamp}
         response = requests.get(ENDPOINT, headers=HEADERS, params=PAYLOAD)
@@ -67,8 +65,7 @@ def get_api_answer(timestamp):
 
 
 def parse_status(homework):
-    """Получаем статус последней домашней работы(если она есть).
-    """
+    """Получаем статус последней домашней работы(если она есть)."""
     homework_name = homework.get('homework_name')
     status = homework.get('status')
     if homework_name is not None and status is not None:
@@ -84,8 +81,7 @@ def parse_status(homework):
 
 
 def check_response(response):
-    """Просто проверяем наш запрос на предмет различных ошибок.
-    """
+    """Просто проверяем наш запрос на предмет различных ошибок."""
     try:
         if type(response) == dict:
             if 'homeworks' in response.keys():
