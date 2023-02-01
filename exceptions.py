@@ -1,7 +1,3 @@
-class NotTokensEx(Exception):
-    """Токены не обнаружены."""
-    pass
-
 class NoSendMessageEx(Exception):
     """Cообщение не отправлено."""
     pass 

@@ -7,9 +7,8 @@ import telegram
 import time
 
 from dotenv import load_dotenv
-from exceptions import (NotTokensEx, NoSendMessageEx,
-                       InvalidHttpCodeEx, InvalidRequestEx,
-                       UnknownStatusEx)
+from exceptions import (NoSendMessageEx, InvalidHttpCodeEx,
+                        InvalidRequestEx, UnknownStatusEx)
 
 load_dotenv()
 PRACTICUM_TOKEN = os.getenv('PRACTICUM_TOKEN')
@@ -61,7 +60,8 @@ def get_api_answer(timestamp):
         response = requests.get(ENDPOINT, headers=HEADERS, params=PAYLOAD)
         if response.status_code != http.HTTPStatus.OK:
             logger.error(f'Ошибка. Код запроса = {response.status_code}')
-            raise InvalidHttpCodeEx(f'Ошибка. Код запроса = {response.status_code}')
+            raise InvalidHttpCodeEx('Ошибка. Код запроса'
+                                    f' = {response.status_code}')
         return response.json()
     except Exception as error:
         logger.error(f'Ошибка получения request: {error}')
@@ -116,7 +116,7 @@ def main():
         try:
             response = get_api_answer(timestamp)
             homeworks = check_response(response)
-            if len(homeworks) > 0:
+            if homeworks:
                 message = parse_status(homeworks[0])
                 send_message(bot, message)
 
@@ -131,4 +131,3 @@ def main():
 
 if __name__ == '__main__':
    main()
-
