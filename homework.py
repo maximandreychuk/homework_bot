@@ -11,7 +11,7 @@ from exceptions import (
 NoSendMessageEx,
 InvalidHttpCodeEx,
 InvalidRequestEx,
-UnknownStatusEx
+UnknownStatusEx,
 )
 
 load_dotenv()
