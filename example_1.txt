@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push(
+	{'gtm.start': new Date().getTime(),event:'gtm.js'}
+
+	);var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-TBHV6M');
+	</script>
+	<!-- End Google Tag Manager -->
+	
+	
+<link rel="stylesheet" href="/bundle/styles.css?295c028c593bb5796e58" />
+	
+	<meta name="fragment" content="!">
+
+
+
+<title>Визуальные тренды 2017</title>
+<meta property="og:title" content="Визуальные тренды 2017" />
+
+
+
+
+
+
+
+	
+	<link rel="canonical" href="https://www.pressfoto.ru/galleries/trends-2017"/>
+
+
+
+
+
+
+
+
+
+
+	<meta property = "og:url" content = "https://www.pressfoto.ru/galleries/trends-2017" />
+
+
+	<meta property = "og:image" content = "https://s.pfst.net/galleries/87746106_b.jpg" />
+	<link rel="image_src" href="https://s.pfst.net/galleries/87746106_b.jpg" />
+
+<meta property="og:type" content="article" />
+<meta property="og:site_name" content="PressFoto" />
+<meta name="google-site-verification" content="DtS0VTZr2pKWYk2HOyNwachWoJlUsUsJFAN_-5fyNCU" />
+<meta name='yandex-verification' content='5fdfb71209d68e01' />
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+
+	<link rel="icon" href="/favicon.ico?1" type="image/x-icon" />
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+
+	<link rel="apple-touch-icon" sizes="57x57" href="/i/favicons/apple-touch-icon-57x57.png" />
+	<link rel="apple-touch-icon" sizes="60x60" href="/i/favicons/apple-touch-icon-60x60.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="/i/favicons/apple-touch-icon-72x72.png" />
+	<link rel="apple-touch-icon" sizes="76x76" href="/i/favicons/apple-touch-icon-76x76.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="/i/favicons/apple-touch-icon-114x114.png" />
+	<link rel="apple-touch-icon" sizes="120x120" href="/i/favicons/apple-touch-icon-120x120.png" />
+	<link rel="apple-touch-icon" sizes="144x144" href="/i/favicons/apple-touch-icon-144x144.png" />
+	<link rel="apple-touch-icon" sizes="152x152" href="/i/favicons/apple-touch-icon-152x152.png" />
+	<link rel="apple-touch-icon" sizes="180x180" href="/i/favicons/apple-touch-icon-180x180.png" />
+	<link rel="icon" type="image/png" href="/i/favicons/favicon-32x32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="/i/favicons/android-chrome-192x192.png" sizes="192x192" />
+	<link rel="icon" type="image/png" href="/i/favicons/favicon-96x96.png" sizes="96x96" />
+	<link rel="icon" type="image/png" href="/i/favicons/favicon-16x16.png" sizes="16x16" />
+	<link rel="manifest" href="/i/favicons/manifest.json" />
+
+    <link href='https://fonts.googleapis.com/css?family=Product+Sans:300,400,500,700,900' rel='stylesheet' type='text/css'>
+
+	<meta name="apple-mobile-web-app-title" content="PressFoto" />
+	<meta name="application-name" content="PressFoto" />
+	<meta name="msapplication-TileColor" content="#fdb913" />
+	<meta name="msapplication-TileImage" content="/i/favicons/mstile-144x144.png" />
+	<meta name="theme-color" content="#ffffff" />
+	
+	<meta name="yandex-verification" content="63a44b2a875c733f"/>
+	<meta name="webmoney.attestation.label" content="webmoney attestation label#1BE20DDF-3C3D-4E37-88BC-C8474F38B304"/>
+	<meta name="p:domain_verify" content="718edb27f82a08f17227aa521569a020"/>
+
+	
+	<script type="text/javascript">
+	
+		var tracker_enabled = 1;
+	
+	</script>
+
+
+
+	<script>
+		
+			var userAuth = false;
+		
+	</script>
+
+	<script>
+		window.addEventListener('load', () => {
+			if (ga) {
+				const cid = ga.getAll()[0].get('clientId');
+				document.cookie = 'cid='+cid+'; path=/';
+			}
+		});
+	</script>
+
+</head>
+<body class="
+    
+    
+    gallery
+    
+">
+	<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TBHV6M"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+	<script>
+	function getCookie(name) {
+	  var matches = document.cookie.match(new RegExp(
+	    "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+	  ));
+	  return matches ? decodeURIComponent(matches[1]) : undefined;
+	}
+
+	function switchMobileClass() {
+		var no_mobile = getCookie('no_mobile');
+		if (no_mobile == 1) {
+			document.querySelector('body').classList.remove('mobile_version');
+			var link = document.getElementById('mobile_css');
+			link.disabled = true;
+		}
+		else {
+			(document.documentElement.clientWidth < 960) ? document.body.classList.add('mobile_version') : document.body.classList.remove('mobile_version');
+		}
+	}
+
+	switchMobileClass();
+	window.addEventListener('resize', function() {switchMobileClass();});
+</script>
+	<div class="header">
+    
+    
+    
+    
+	<a class="logo icon-pressfoto-long" title="" href="/"></a>
+
+
+    <div class="mobile-menu-opener toolbar_icon">
+        <i class="material-icons ">menu</i>
+    </div>
+    
+    
+        <a href="/signin" class="login_link mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+            Войти
+        </a>
+    
+    
+
+
+	<!-- <div class="dropdown dropdown-user_profile">
+        <ul class="dropdown_menu mdl-menu mdl-js-menu mdl-js-ripple-effect" for="js_profile_menu">
+                <li class="mdl-menu__item"><a class="mdl-menu__item__link" href="/account">Личный кабинет</a></li>
+            <li class="mdl-menu__item"><a class="mdl-menu__item__link" href="/account/bookmarks/all">Закладки</a></li>
+            <li class="mdl-menu__item"><a class="mdl-menu__item__link" href="/account/settings">Настройки</a></li>
+            <li class="mdl-menu__item"><a class="mdl-menu__item__link" href="/account/billing/balance">Деньги</a></li>
+            
+        </ul>
+    </div> -->
+
+    <div class="mdl-layout__header-row header__nav_wrapper">
+        <div class="header__nav-logo">
+            
+	<a class="logo icon-pressfoto-long" title="" href="/"></a>
+
+
+            <div class="toolbar_icon mobile-menu-closer">
+                <i class="material-icons">chevron_left</i>
+            </div>
+        </div>
+
+        <nav class="mdl-navigation header__nav">                
+            <a class="mdl-navigation__link header__nav_link " href="/search/image">Поиск</a>                
+            <a class="mdl-navigation__link header__nav_link " href="/galleries">Подборки</a>
+            <a class="mdl-navigation__link header__nav_link " href="/pricing">Наши цены</a>
+            <!-- <a class="mdl-navigation__link header__nav_link" href="https://www.pressfoto.ru/blog/" target="_blank">Блог</a> -->
+            <a class="mdl-navigation__link header__nav_link " href="/about">О нас</a>
+        </nav>
+    </div>
+
+</div>
+
+		
+	
+	<div id='gallery_info' data-path='' data-title='Визуальные тренды 2017' data-id='87746106' data-description='Тенденции, определяющие визуальные коммуникации в 2017 году' data-key='trends-2017'></div>
+
+<div id='root-galleries'></div>	
+
+<div class="banner js_wrap" id="pricing_banner">
+    <div class="container">
+        <div class="banner__header">
+            НЕ НАШЛИ, ЧТО ИСКАЛИ? <br />
+            ЗАКАЖИТЕ ИНДИВИДУАЛЬНУЮ СЪЁМКУ ДЛЯ ВАШЕГО БИЗНЕСА
+        </div>
+        <a href="https://studio.everypixel.com/ru/photo?utm_source=pressfoto_ru&utm_medium=display&utm_campaign=pressfoto_offer&utm_content=banner_01" target="_blank" class="banner__button mdl-button mdl-js-button mdl-js-ripple-effect">ЗАКАЗАТЬ</a>
+        <button class="banner__close js_close_banner material-icons">close</button>
+    </div>
+</div>
+
+<script type="text/javascript">
+	const script = document.createElement("script");
+	script.src = "/bundle/gallery.js";
+	document.body.appendChild(script);
+</script>
+
+
+	
+	<div class="footer">
+	<div class="footer__wrapper container">
+		<div class="footer__logo">
+		    
+	<a class="logo icon-pressfoto-long" title="" href="/"></a>
+
+
+			
+			<div class="footer__copyright">Copyright &copy; 2006-2023 Цифровая Собственность &trade;<br>PressFoto состоит в CEPIC и DMLA </div>
+		</div>
+		<div class="footer__menu">
+            <input type="checkbox" id="footer-menu" />
+			<label class="footer__column-title" for="footer-menu">
+                Меню сайта
+                <i class="material-icons">play_arrow</i>
+            </label>
+			<ul class="footer__column">
+				<li class="footer__item">
+					<a href="/image" class="footer__link">Фото</a>
+				</li>
+				<li class="footer__item">
+					<a href="/video" class="footer__link">Видео</a>
+				</li>
+				<li class="footer__item">
+					<a href="/vector" class="footer__link">Вектор</a>
+				</li>
+				<li class="footer__item">
+					<a href="/clipart" class="footer__link">Клипарт</a>
+				</li>
+			</ul>
+            <input type="checkbox" id="footer-content" />
+			<label class="footer__column-title" for="footer-content">
+                Контент
+                <i class="material-icons">play_arrow</i>
+            </label>
+			<ul class="footer__column">
+				<li class="footer__item">
+					<a href="/search/image/" class="footer__link">Поиск</a>
+				</li>
+				<li class="footer__item">
+					<a href="/galleries" class="footer__link">Подборки</a>
+				</li>
+				<li class="footer__item">
+					<a href="" class="footer__link">Наши цены</a>
+				</li>
+				<!-- <li class="footer__item">
+					<a  href="https://www.pressfoto.ru/blog/" target="_blank" class="footer__link">Блог</a>
+				</li> -->
+				<li class="footer__item">
+					<a href="/about" class="footer__link">О нас</a>
+				</li>
+			</ul>
+            <input type="checkbox" id="footer-info" />
+			<label class="footer__column-title" for="footer-info">
+                Информация
+                <i class="material-icons">play_arrow</i>
+            </label>
+			<ul class="footer__column">
+								
+			</ul>
+            <input type="checkbox" id="footer-docs" />
+			<label class="footer__column-title" for="footer-docs">
+                Правововые документы
+                <i class="material-icons">play_arrow</i>
+            </label>
+			<ul class="footer__column">
+				<li class="footer__item">
+					<a href="/documents/privacy_policy" class="footer__link">Конфиденциальность</a>
+				</li>
+				<li class="footer__item">
+					<a href="/documents/license_agreement" class="footer__link">Оферта</a>
+				</li>
+				<li class="footer__item">
+					<a href="/documents/licenses" class="footer__link">Лицензии</a>
+				</li>
+				<li class="footer__item">
+					<a href="/documents/personal" class="footer__link">Персональные данные</a>
+				</li>
+			</ul>
+            <input type="checkbox" id="footer-contacts" />
+			<label class="footer__column-title" for="footer-contacts">
+                Контакты
+                <i class="material-icons">play_arrow</i>
+            </label>
+
+			<ul class="footer__column">
+				<li class="footer__item">
+					<a href="/help/general" class="footer__link">Справка</a>
+				</li>
+				<li class="footer__item">
+					
+						<a href="http://submit.pressfoto.ru" class="footer__link">
+						
+						Авторам
+					</a>
+				</li>
+				<li class="footer__item">
+					<a href="/contacts" class="footer__link">Контакты</a>
+				</li>
+				<li class="footer__item">
+					<a href="https://t.me/pressfoto_bot" class="footer__link">Поддержка в Telegram</a>
+				</li>
+				
+			</ul>
+		</div>
+
+	</div>
+</div>	
+
+<!-- /.footer -->
+		
+	
+	<noindex>
+		<a rel="nofollow" href="/hp/test/34A8D8FACF105FFDA0BFEB02F96BBBCC"></a>
+	</noindex>
+
+
+	<div class="tooltip js_tooltip"></div>
+	
+
+<div class="p_notifications"></div>
+
+<div class="dragging_background">
+    <div class="dragging_background__inner">
+        <div class="dragging_background__icon">
+            <div class="dragging_background__icon_border"></div>
+            <div class="dragging_background__icon_hills" ></div>
+            <div class="dragging_background__icon_sun" ></div>
+        </div>
+        <div class="dragging_background__header">
+            Перетащите изображение, чтобы найти его на PressFoto
+        </div>
+    </div>
+    <input type="file" class="file_upload_form__file_input dropfile" id="dropfile" />
+</div>
+
+<script>
+	allBookmarks = [];
+	if(allBookmarks.length > 0) {
+		if(allBookmarks[0]['image'] === null) {
+			allBookmarks[0]['image'] = [];
+		}
+		if(allBookmarks[0]['vector'] === null) {
+			allBookmarks[0]['vector'] = [];
+		}
+		if(allBookmarks[0]['video'] === null) {
+			allBookmarks[0]['video'] = [];
+		}
+	}
+</script>
+
+<div>	</div>	
+
+	<script>
+	if (typeof(dataLayer) != 'undefined') {
+		dataLayer.push(
+			
+		);
+	}
+</script>
+
+
+    <script src="/assets/jslib/scripts/locale-ru.js"></script>
+
+
+<script type="text/javascript">
+	function getCookie(name) {
+	  var matches = document.cookie.match(new RegExp(
+	    "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+	  ));
+	  return matches ? decodeURIComponent(matches[1]) : undefined;
+	}
+
+    var notification = getCookie('notification_close');
+    if (notification == 1) {
+        var notifications_list = document.getElementsByClassName('top_notification');
+
+        for (var i = 0; i < notifications_list.length; i++) {
+            notifications_list[i].className += ' closed';
+        }
+    }
+</script>
+
+<script src="/bundle/plugins.js?295c028c593bb5796e58"></script>
+<script src="/bundle/site.js?295c028c593bb5796e58"></script>
+<script src="/bundle/imageCard.js?295c028c593bb5796e58"></script>
+<script src="/bundle/customScrollbar.js?295c028c593bb5796e58"></script>
+
+<script type="text/javascript">
+	function createScript (link) {		
+		const script = document.createElement('script');
+		script.src = `/bundle/` + link;
+		document.body.appendChild(script);
+	}
+	if (location.pathname == '/') 
+		createScript('mainPage.js');	
+</script>
+
+
+
+
+</body>

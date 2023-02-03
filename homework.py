@@ -7,8 +7,12 @@ import telegram
 import time
 
 from dotenv import load_dotenv
-from exceptions import (NoSendMessageEx, InvalidHttpCodeEx,
-                        InvalidRequestEx, UnknownStatusEx)
+from exceptions import (
+NoSendMessageEx,
+InvalidHttpCodeEx,
+InvalidRequestEx,
+UnknownStatusEx
+)
 
 load_dotenv()
 PRACTICUM_TOKEN = os.getenv('PRACTICUM_TOKEN')
@@ -19,7 +23,6 @@ RETRY_PERIOD = 600
 ENDPOINT = 'https://practicum.yandex.ru/api/user_api/homework_statuses/'
 HEADERS = {'Authorization': f'OAuth {PRACTICUM_TOKEN}'}
 
-EMPTY_LIST = []
 HOMEWORK_VERDICTS = {
     'approved': 'Работа проверена: ревьюеру всё понравилось. Ура!',
     'reviewing': 'Работа взята на проверку ревьюером.',
@@ -36,7 +39,7 @@ logger = logging.getLogger(__name__)
 
 def check_tokens():
     """Проверка токенов. Если их нет - программа останавливается."""
-    if all([PRACTICUM_TOKEN, TELEGRAM_TOKEN, TELEGRAM_CHAT_ID]) is False:
+    if not all([PRACTICUM_TOKEN, TELEGRAM_TOKEN, TELEGRAM_CHAT_ID]):
         logger.critical('Где токены?')
         sys.exit()
 
@@ -56,7 +59,8 @@ def get_api_answer(timestamp):
     """Получаем результат запроса к API."""
     try:
         PAYLOAD = {'from_date': timestamp}
-        logger.debug('Отправка запроса к API..')
+        logger.debug('Отправка запроса к API с '
+                     f'headers = {HEADERS} и params = {PAYLOAD}')
         response = requests.get(ENDPOINT, headers=HEADERS, params=PAYLOAD)
         if response.status_code != http.HTTPStatus.OK:
             logger.error(f'Ошибка. Код запроса = {response.status_code}')
@@ -96,7 +100,7 @@ def check_response(response):
         if not isinstance(response['homeworks'], list):
             logger.error('Значение ключа homeworks не list')
             raise TypeError('Значение ключа homeworks не list')
-        if response['homeworks'] is EMPTY_LIST:
+        if not response['homeworks']:
             logger.error('Список пуст')
             raise TypeError('Список пуст')
         return response['homeworks']
