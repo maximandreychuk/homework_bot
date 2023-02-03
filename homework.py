@@ -8,10 +8,11 @@ import time
 
 from dotenv import load_dotenv
 from exceptions import (
- NoSendMessageEx,
- InvalidHttpCodeEx,
- InvalidRequestEx,
- UnknownStatusEx,
+    NoSendMessageEx,
+    InvalidHttpCodeEx,
+    InvalidRequestEx,
+    UnknownStatusEx,
+# Только так проходит pep8
 )
 
 load_dotenv()
