@@ -12,7 +12,7 @@ from exceptions import (
     InvalidHttpCodeEx,
     InvalidRequestEx,
     UnknownStatusEx
-) # Только так проходит pep8
+)
 
 load_dotenv()
 PRACTICUM_TOKEN = os.getenv('PRACTICUM_TOKEN')
